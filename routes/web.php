@@ -1,0 +1,203 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Application Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register all of the routes for an application.
+| It is a breeze. Simply tell Lumen the URIs it should respond to
+| and give it the Closure to call when that URI is requested.
+|
+*/
+
+$router->get('/', function () use ($router) {
+    return view('website');
+});
+
+$router->get('/index', function () use ($router) {
+    return view('index');
+});
+
+$router->get('/admin', function () use ($router) {
+    return view('admin');
+});
+
+$router->get('/account', function () use ($router) {
+    return view('account');
+});
+
+
+$router->get('/intro/introduction', function () use ($router) {
+    return view('intro/introduction');
+});
+
+$router->get('/intro/this-way', function () use ($router) {
+    return view('intro/this-way');
+});
+
+$router->get('/intro/home-screen', function () use ($router) {
+    return view('intro/home-screen');
+});
+
+
+$router->get('/artemis-and-the-animals/01', function () use ($router) {
+    return view('artemis-and-the-animals/01');
+});
+
+$router->get('/artemis-and-the-animals/02', function () use ($router) {
+    return view('artemis-and-the-animals/02');
+});
+
+$router->get('/artemis-and-the-animals/03', function () use ($router) {
+    return view('artemis-and-the-animals/03');
+});
+
+$router->get('/artemis-and-the-animals/04', function () use ($router) {
+    return view('artemis-and-the-animals/04');
+});
+
+$router->get('/artemis-and-the-animals/05', function () use ($router) {
+    return view('artemis-and-the-animals/05');
+});
+
+$router->get('/artemis-and-the-animals/06', function () use ($router) {
+    return view('artemis-and-the-animals/06');
+});
+
+$router->get('/artemis-and-the-animals/07', function () use ($router) {
+    return view('artemis-and-the-animals/07');
+});
+
+$router->get('/artemis-and-the-animals/08', function () use ($router) {
+    return view('artemis-and-the-animals/08');
+});
+
+$router->get('/artemis-and-the-animals/09', function () use ($router) {
+    return view('artemis-and-the-animals/09');
+});
+
+$router->get('/artemis-and-the-animals/10', function () use ($router) {
+    return view('artemis-and-the-animals/10');
+});
+
+$router->get('/artemis-and-the-animals/11', function () use ($router) {
+    return view('artemis-and-the-animals/11');
+});
+
+
+$router->get('/my-family/01', function () use ($router) {
+    return view('my-family/01');
+});
+
+$router->get('/my-family/02', function () use ($router) {
+    return view('my-family/02');
+});
+
+$router->get('/my-family/03', function () use ($router) {
+    return view('my-family/03');
+});
+
+$router->get('/my-family/04', function () use ($router) {
+    return view('my-family/04');
+});
+
+$router->get('/my-family/05', function () use ($router) {
+    return view('my-family/05');
+});
+
+$router->get('/my-family/06', function () use ($router) {
+    return view('my-family/06');
+});
+
+$router->get('/my-family/07', function () use ($router) {
+    return view('my-family/07');
+});
+
+
+
+$router->get('/message-in-a-bottle/01', function () use ($router) {
+    return view('message-in-a-bottle/01');
+});
+
+$router->get('/message-in-a-bottle/02', function () use ($router) {
+    return view('message-in-a-bottle/02');
+});
+
+$router->get('/message-in-a-bottle/03', function () use ($router) {
+    return view('message-in-a-bottle/03');
+});
+
+$router->get('/message-in-a-bottle/04', function () use ($router) {
+    return view('message-in-a-bottle/04');
+});
+
+$router->get('/message-in-a-bottle/05', function () use ($router) {
+    return view('message-in-a-bottle/05');
+});
+
+$router->get('/message-in-a-bottle/06', function () use ($router) {
+    return view('message-in-a-bottle/06');
+});
+
+
+
+$router->get('/a-trip-to-victorian-england/01', function () use ($router) {
+    return view('a-trip-to-victorian-england/01');
+});
+
+$router->get('/a-trip-to-victorian-england/02', function () use ($router) {
+    return view('a-trip-to-victorian-england/02');
+});
+
+$router->get('/a-trip-to-victorian-england/03', function () use ($router) {
+    return view('a-trip-to-victorian-england/03');
+});
+
+$router->get('/a-trip-to-victorian-england/04', function () use ($router) {
+    return view('a-trip-to-victorian-england/04');
+});
+
+$router->get('/a-trip-to-victorian-england/05', function () use ($router) {
+    return view('a-trip-to-victorian-england/05');
+});
+
+$router->get('/a-trip-to-victorian-england/06', function () use ($router) {
+    return view('a-trip-to-victorian-england/06');
+});
+
+$router->get('/a-trip-to-victorian-england/07', function () use ($router) {
+    return view('a-trip-to-victorian-england/07');
+});
+
+$router->get('/a-trip-to-victorian-england/08', function () use ($router) {
+    return view('a-trip-to-victorian-england/08');
+});
+
+$router->get('/a-trip-to-victorian-england/09', function () use ($router) {
+    return view('a-trip-to-victorian-england/09');
+});
+
+$router->get('/a-trip-to-victorian-england/10', function () use ($router) {
+    return view('a-trip-to-victorian-england/10');
+});
+
+$router->get('/a-trip-to-victorian-england/11', function () use ($router) {
+    return view('a-trip-to-victorian-england/11');
+});
+
+$router->get('/a-trip-to-victorian-england/12', function () use ($router) {
+    return view('a-trip-to-victorian-england/12');
+});
+
+
+$router->get('/a-trip-to-victorian-england/13', function () use ($router) {
+    return view('a-trip-to-victorian-england/13');
+});
+
+
+$router->get('/a-trip-to-victorian-england/14', function () use ($router) {
+    return view('a-trip-to-victorian-england/14');
+});
+
+
