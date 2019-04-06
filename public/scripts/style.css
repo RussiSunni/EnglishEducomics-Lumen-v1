@@ -170,5 +170,8 @@
     
   
    .panel {
-     background: #ffdbdb;
+     background: #dadada;
+     border: 2px solid black!important;
    }
+
+ 

@@ -11,16 +11,15 @@
 
             <div class="row mt-3">
                 <div class="col">
-                    <img src="../../images/message-in-a-bottle/lesson-page-1-3.jpg" class="img-fluid mx-auto d-block panel">
+                    <img src="../../images/message-in-a-bottle/lesson-page-3.jpg" class="img-fluid mx-auto d-block rounded panel">
                 </div>
             </div>
 
             <div class="row mt-2">
-                <a class="btn btn-outline-dark mx-auto" href="05" role="button">next</a>
+                <a class="btn btn-outline-dark mx-auto" href="08" role="button">next</a>
             </div>
         </div>
     </div>
-
 
 
 @endsection

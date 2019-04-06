@@ -11,7 +11,7 @@
 
             <div class="row mt-3">
                 <div class="col">
-                    <img src="../../images/artemis-and-the-animals/animal-game.jpg" class="img-fluid mx-auto d-block">
+                    <img src="../../images/artemis-and-the-animals/animal-game.jpg" class="img-fluid mx-auto d-block panel">
                 </div>
             </div>
 

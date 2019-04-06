@@ -140,6 +140,18 @@ $router->get('/message-in-a-bottle/06', function () use ($router) {
     return view('message-in-a-bottle/06');
 });
 
+$router->get('/message-in-a-bottle/07', function () use ($router) {
+    return view('message-in-a-bottle/07');
+});
+
+$router->get('/message-in-a-bottle/08', function () use ($router) {
+    return view('message-in-a-bottle/08');
+});
+
+$router->get('/message-in-a-bottle/09', function () use ($router) {
+    return view('message-in-a-bottle/09');
+});
+
 
 
 $router->get('/a-trip-to-victorian-england/01', function () use ($router) {

@@ -11,13 +11,13 @@
         </div>
         <div class="row mt-3">
             <div class="col-md-5">
-                <img src="../../images/a-trip-to-victorian-england/present-simple-tense-04.png" class="img-fluid border border-dark rounded panel">
+                <img src="../../images/a-trip-to-victorian-england/present-simple-tense-04.png" class="img-fluid rounded panel">
             </div>
             <div class="col-md-2 d-flex align-items-center justify-content-center mt-3 mb-3">
                     <img src="../../images/a-trip-to-victorian-england/for-example.svg">
             </div>
             <div class="col-md-5">
-                <img src="../../images/a-trip-to-victorian-england/present-simple-tense-05.png" class="img-fluid border border-dark rounded panel">
+                <img src="../../images/a-trip-to-victorian-england/present-simple-tense-05.png" class="img-fluid rounded panel">
             </div>
         </div>
 
