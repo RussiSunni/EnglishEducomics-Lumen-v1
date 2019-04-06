@@ -5,13 +5,23 @@
 
     <div class="content">
         <div class="container">
+            <div class="row justify-content-center mt-3">
+                <img src="../../images/message-in-a-bottle/message-in-a-bottle.svg" class="img-fluid">
+            </div>
 
-            <p>You have completed the course!</p>
+            <div class="row mt-3">
+                <div class="col">
+                    <img src="../../images/message-in-a-bottle/lesson-page-4-2.jpg" class="img-fluid mx-auto d-block panel">
+                </div>
+            </div>
 
-            <a class="btn btn-outline-dark ml-auto" href="01" role="button">I would like to continue with this course</a>
-            <a id="finishedC3" class="btn btn-outline-dark ml-auto" href="../../index" role="button">I am finished the course</a>
+            <div class="row mt-2">
+                <a class="btn btn-outline-dark mx-auto" href="10" role="button">next</a>
+            </div>
         </div>
     </div>
- 
+
+
+
 
 @endsection

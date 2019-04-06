@@ -152,6 +152,34 @@ $router->get('/message-in-a-bottle/09', function () use ($router) {
     return view('message-in-a-bottle/09');
 });
 
+$router->get('/message-in-a-bottle/10', function () use ($router) {
+    return view('message-in-a-bottle/10');
+});
+
+$router->get('/message-in-a-bottle/11', function () use ($router) {
+    return view('message-in-a-bottle/11');
+});
+
+$router->get('/message-in-a-bottle/12', function () use ($router) {
+    return view('message-in-a-bottle/12');
+});
+
+$router->get('/message-in-a-bottle/13', function () use ($router) {
+    return view('message-in-a-bottle/13');
+});
+
+$router->get('/message-in-a-bottle/14', function () use ($router) {
+    return view('message-in-a-bottle/14');
+});
+
+$router->get('/message-in-a-bottle/15', function () use ($router) {
+    return view('message-in-a-bottle/15');
+});
+
+$router->get('/message-in-a-bottle/16', function () use ($router) {
+    return view('message-in-a-bottle/16');
+});
+
 
 
 $router->get('/a-trip-to-victorian-england/01', function () use ($router) {
