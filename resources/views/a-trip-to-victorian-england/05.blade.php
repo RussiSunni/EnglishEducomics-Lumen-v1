@@ -11,7 +11,7 @@
         </div>
         <div class="row mt-3">
             <div class="col">
-                <img src="../../images/a-trip-to-victorian-england/present-simple-tense-01.png" class="img-fluid mx-auto d-block border border-dark rounded">
+                <img src="../../images/a-trip-to-victorian-england/present-simple-tense-01.png" class="img-fluid mx-auto d-block border border-dark rounded panel">
             </div>
         </div>
         <div class="row mt-2">
