@@ -43,23 +43,15 @@
                                     </li>
                                 </ul>
                             </div>
-
                         </nav>
                     </div>
-                  
                 </div>
             </div>
-          
             <div>
-                              
-                
                 <h1 id="changeText1">Learn English</h1>
                 <h2 id="changeText2" class="mb-3">with comics</h2>
-
                 <a class="btn btn-info rounded-button" href="intro/introduction" role="button">begin now</a>
             </div>
-
-         
         </header>
     </div>
     <div class="container mt-5">

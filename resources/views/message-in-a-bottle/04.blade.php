@@ -11,7 +11,7 @@
 
             <div class="row mt-3">
                 <div class="col">
-                    <img src="../../images/message-in-a-bottle/lesson-page-3.jpg" class="img-fluid mx-auto d-block">
+                    <img src="../../images/message-in-a-bottle/lesson-page-3.jpg" class="img-fluid mx-auto d-block border border-dark rounded">
                 </div>
             </div>
 

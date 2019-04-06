@@ -11,7 +11,7 @@
 
         <div class="row mt-3">
             <div class="col">
-                <img src="../../images/a-trip-to-victorian-england/future-simple-tense-07.png" class="img-fluid mx-auto d-block">
+                <img src="../../images/a-trip-to-victorian-england/future-simple-tense-07.png" class="img-fluid mx-auto d-block border border-dark rounded">
             </div>
         </div>
 

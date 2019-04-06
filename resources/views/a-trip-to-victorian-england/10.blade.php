@@ -12,13 +12,13 @@
 
         <div class="row mt-3">
             <div class="col-md-5">
-                <img src="../../images/a-trip-to-victorian-england/future-simple-tense-05.png" class="img-fluid">
+                <img src="../../images/a-trip-to-victorian-england/future-simple-tense-05.png" class="img-fluid border border-dark rounded">
             </div>
             <div class="col-md-2 d-flex align-items-center justify-content-center">
                 <p>you can write them here -></p>
             </div>
             <div class="col-md-5">
-                <img src="../../images/a-trip-to-victorian-england/future-simple-tense-06.png" class="img-fluid">
+                <img src="../../images/a-trip-to-victorian-england/future-simple-tense-06.png" class="img-fluid border border-dark rounded">
             </div>
         </div>
 

@@ -12,7 +12,7 @@
 
             <div class="row mt-3">
                 <div class="col">
-                    <img src="../../images/my-family/exercise-05.png" class="img-fluid mx-auto d-block">
+                    <img src="../../images/my-family/exercise-05.png" class="img-fluid mx-auto d-block border border-dark rounded">
                 </div>
             </div>
             <div class="row justify-content-center mt-4">
