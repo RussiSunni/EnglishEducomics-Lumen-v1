@@ -15,14 +15,14 @@
 
 			<h3 class="mt-3 mb-3">Welcome to Sunshine English School</h3>
 
-			<img src="../../images/intro/writing.jpeg" class="rounded mb-3" height="400" width="300">
+			<img src="../../images/intro/writing.jpeg" class="rounded mb-3 border border-dark" height="400" width="300">
 			<div id="introduction">
-				<p>Hello child,</p>
-				<p> Welcome to Sunshine English School.</p>
+				<p>Hello child,<br>
+				Welcome to Sunshine English School.</p>
 				<p> Please type your name to enter.</p>
 				<form>
-					<p><input type="text" id="username"></p>
-					<input id="submitUsername" value="Submit" type="button" class="btn btn-secondary btn-lg">
+					<p><input type="text" id="username" class="border border-dark rounded"></p>
+					<input id="submitUsername" value="Submit" type="button" class="btn btn-secondary btn-lg border border-dark">
 				</form>
 			</div>
 		</div>

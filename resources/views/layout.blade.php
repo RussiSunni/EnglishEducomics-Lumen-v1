@@ -13,7 +13,7 @@
 
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-            <a class="navbar-brand" href="../../index.html">
+            <a class="navbar-brand" href="../index">
                 <img src="../../images/logo.png" width="80" height="80" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="../../index.html">Home</a>
+                        <a class="nav-link" href="../index">Home</a>
                     </li>
                 </ul>
             </div>

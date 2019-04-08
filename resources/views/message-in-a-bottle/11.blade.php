@@ -5,11 +5,13 @@
 
     <div class="content">
         <div class="container">
-            <div class="row justify-content-center mt-3">
-                <img src="../../images/message-in-a-bottle/message-in-a-bottle.svg" class="img-fluid">
+            <div class="row mt-3">
+                <div class="col">
+                    <p class="text-center">Supply each sentence with one of the following missing words: in, on, of, from</p>
+                </div>
             </div>
 
-            <div class="row mt-3">
+            <div class="row">
                 <div class="col">
                     <img src="../../images/message-in-a-bottle/lesson-page-4-4.jpg" class="img-fluid mx-auto d-block panel">
                 </div>

@@ -11,13 +11,13 @@
 
 @media (min-width: 576px) {
 
-    .vertical-center {
+    /* .vertical-center {
       margin: 0;
       position: absolute;
       top: 50%;
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
-    }
+    } */
   }
   
   /* from Sunshine English School */
@@ -28,6 +28,16 @@
     }
   
   
+    @media (max-width: 768px) {
+
+      .homescreen-fairyimg {
+        height: 350px;
+      }
+
+    }
+
+
+
    /* for mobile screens */
   @media (max-width: 576px) {
   
@@ -36,11 +46,7 @@
       height: 50px;
       width: 50px;
     }
-  
-    .homescreen-fairy-img {
-      height: 50%;
-      width: 50%;
-    }
+   
   }
   
   
@@ -116,8 +122,6 @@
   
   @media only screen and (max-width: 600px){
       img {
-        width: 100vw;
-        
         margin-left:auto;
         margin-right:auto;
         
@@ -170,7 +174,7 @@
     
   
    .panel {
-     background: #dadada;
+     background: #a7c6eb;
      border: 2px solid black!important;
    }
 

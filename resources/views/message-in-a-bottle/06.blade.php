@@ -4,16 +4,16 @@
 @section('content')
 
     <div class="content">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row justify-content-center mt-3">
                 <img src="../../images/message-in-a-bottle/message-in-a-bottle.svg" class="img-fluid">
             </div>
 
             <div class="row mt-3">
-                <div class="col">
+                <div class="col-12 col-md-4">
                     <img src="../../images/message-in-a-bottle/lesson-page-2.png" class="img-fluid mx-auto d-block rounded panel">
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-4">
                     <div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
                     <div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
                     <div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
@@ -21,7 +21,7 @@
                     <div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
                     <div class="placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-4">
                     <img src="../../images/message-in-a-bottle/answer-02.jpg" id="drag2" draggable="true" ondragstart="drag(event)" width="336" height="69">
                     <img src="../../images/message-in-a-bottle/answer-06.jpg" id="drag6" draggable="true" ondragstart="drag(event)" width="336" height="69">
                     <img src="../../images/message-in-a-bottle/answer-01.jpg" id="drag1" draggable="true" ondragstart="drag(event)" width="336" height="69">

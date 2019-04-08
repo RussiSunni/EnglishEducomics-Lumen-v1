@@ -11,15 +11,13 @@
 
 <body>
     <div class="container h-100 d-flex flex-column justify-content-center">
-        <div class="row">
+        <div class="row h-100">
 
-            <div class="col-12 col-lg-5 mt-5">
-                <div class="vertical-center">
-                    <img src="../../images/intro/fairy.png" class="rounded img-fluid homescreen-fairy-img">
-                </div>
+            <div class="col-12 col-md-6 col-lg-5 mt-5">
+                <img src="../../images/intro/fairy.png" class="rounded img-fluid homescreen-fairyimg">
             </div>
-            <div class="col-12 col-lg-1"></div>
-            <div class="col-12 col-lg-6 mt-3">
+           
+            <div class="col-12 col-md-6 col-lg-6 mt-3">
                 <div class="row mb-3">
                     <div class="col">
                         <h5 class="text-center"><span id='chooseFamiliar'><span id="currentUser"></span>, before you proceed, you need to choose
@@ -110,12 +108,13 @@
                             </div> -->
                         </div>
                     </div>
-                </form>
+                </form> 
+                <input id="submitFamiliar" value="choose" type="button" class="btn btn-secondary ml-auto">
+                <a class="btn btn-outline-dark ml-auto disabled float-right" href="../index" role="button">proceed</a>
 
             </div>
 
-            <input id="submitFamiliar" value="choose" type="button" class="btn btn-secondary ml-auto">
-            <a class="btn btn-outline-dark ml-auto disabled" href="../index" role="button">proceed</a>
+           
         </div>
 
        

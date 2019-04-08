@@ -241,3 +241,10 @@ $router->get('/a-trip-to-victorian-england/14', function () use ($router) {
 });
 
 
+$router->get('/spa-test/01', function () use ($router) {
+    return view('/spa-test/01');
+});
+
+$router->get('/spa-test/02', function () use ($router) {
+    return view('/spa-test/02');
+});

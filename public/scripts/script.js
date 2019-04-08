@@ -53,10 +53,10 @@ $(document).ready(function () {
             url: url + '?username=' + username,
             success: function (data) {
                 if (data.includes("name already exists")) {
-                    $('#introduction').html('<p>ah yes, it is... ' + username + '</p><h3><a href="../index">Welcome!</a></h3>');
+                    $('#introduction').html('<p>ah yes, it is... ' + username + '</p><h3><a href="../index" class="text-dark">Welcome!</a></h3>');
                 }
                 else {
-                    $('#introduction').html('<p>ah, a new student. How wonderful.</p><h3><a href="this-way">Welcome!</a></h3>');
+                    $('#introduction').html('<p>ah, a new student. How wonderful.</p><h3><a href="this-way" class="text-dark">Welcome!</a></h3>');
                 }
             }
         });

@@ -50,7 +50,7 @@
             <div>
                 <h1 id="changeText1">Learn English</h1>
                 <h2 id="changeText2" class="mb-3">with comics</h2>
-                <a class="btn btn-info rounded-button" href="intro/introduction" role="button">begin now</a>
+                <a class="btn btn-outline-dark rounded-button" href="intro/introduction" role="button">begin now</a>
             </div>
         </header>
     </div>
@@ -62,19 +62,19 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-6 col-md-3 text-center">
-                            <img src="./images/website/portrait2.png" class="rounded-circle img-fluid">
+                            <img src="./images/website/portrait2.png" class="rounded-circle img-fluid border border-dark bg-white">
                             <p class="heading"><strong>你好</strong></p>
                         </div>
                         <div class="col-6 col-md-3 text-center">
-                            <img src="./images/website/portrait6.png" class="rounded-circle img-fluid">
+                            <img src="./images/website/portrait6.png" class="rounded-circle img-fluid border border-dark bg-white">
                             <p class="heading"><strong>Ola</strong></p>
                         </div>
                         <div class="col-6 col-md-3 text-center">
-                            <img src="./images/website/portrait9.png" class="rounded-circle img-fluid">
+                            <img src="./images/website/portrait9.png" class="rounded-circle img-fluid border border-dark bg-white">
                             <p class="heading"><strong>Привет</strong></p>
                         </div>
                         <div class="col-6 col-md-3 text-center">
-                            <img src="./images/website/portrait4.png" class="rounded-circle img-fluid">
+                            <img src="./images/website/portrait4.png" class="rounded-circle img-fluid border border-dark bg-white">
                             <p class="heading"><strong>مرحبا</strong></p>
                         </div>
                     </div>
@@ -89,22 +89,21 @@
                 <div class="form-group row">
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
-                        <h2 class="mb-3">signup</h2>
-                        <input type="text" class="form-control" name="fname" placeholder="firstname">
+                        <input type="text" class="form-control border border-dark" name="fname" placeholder="firstname">
                     </div>
                     <div class="col-md-3"></div>
                 </div>
                 <div class="form-group row">
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
-                        <input type="text" class="form-control" name="sname" placeholder="surname">
+                        <input type="text" class="form-control border border-dark" name="sname" placeholder="surname">
                     </div>
                     <div class="col-md-3"></div>
                 </div>
                 <div class="form-group row">
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
-                        <input type="text" class="form-control" name="username" placeholder="pick a username">
+                        <input type="text" class="form-control border border-dark" name="username" placeholder="pick a username">
                     </div>
                     <div class="col-md-3"></div>
                 </div>
@@ -112,7 +111,7 @@
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
 
-                        <button type="submit" name="submit" value="Submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" name="submit" value="Submit" class="btn btn-outline-dark rounded-button">Signup</button>
                     </div>
                     <div class="col-md-3"></div>
                 </div>

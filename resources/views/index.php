@@ -25,7 +25,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="../../index.html">Home</a>
+                        <a class="nav-link" href="/index">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/admin">Admin</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/account">Account</a>
                     </li>
                 </ul>
             </div>
@@ -35,7 +41,7 @@
 
 
     <div class="container">
-        <h3 class="text-center mt-4">My courses</h3>
+        <h3 class="text-center mt-4">My stories</h3>
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -47,7 +53,7 @@
         </table>
 
 
-        <h3 class="text-center mt-4">All courses</h3>
+        <h3 class="text-center mt-4">All stories</h3>
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -100,20 +106,19 @@
                         <button type="button" id="addCourse4" class="btn btn-info">add</button>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <img src="" class="img-fluid">
+                    </td>
+                    <td>
+                    vocabulary
+                    </td>
+                    <td>
+                        <button type="button" id="addCourse5" class="btn btn-info">add</button>
+                    </td>
+                </tr>
             </tbody>
         </table>
-
-        <!-- Vue test-->
-        <!-- <div id="apptyping">
-            <p>{{ message }}</p>
-            <input v-model="message">
-        </div>
-
-
-        <div id="app">
-            <p v-html="message"></p>
-        </div> -->
-
 
     </div>
 
