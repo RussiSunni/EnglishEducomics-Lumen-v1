@@ -13,11 +13,11 @@
     <div class="container h-100 d-flex flex-column justify-content-center">
         <div class="row h-100">
 
-            <div class="col-12 col-md-6 col-lg-5 mt-5">
+            <div class="col-12 col-md-6 col-lg-5 mt-5 my-auto">
                 <img src="../../images/intro/fairy.png" class="rounded img-fluid homescreen-fairyimg">
             </div>
            
-            <div class="col-12 col-md-6 col-lg-6 mt-3">
+            <div class="col-12 col-md-6 col-lg-6 mt-3 my-auto">
                 <div class="row mb-3">
                     <div class="col">
                         <h5 class="text-center"><span id='chooseFamiliar'><span id="currentUser"></span>, before you proceed, you need to choose
@@ -28,89 +28,119 @@
                 <form>
                     <div class="row">
                         <div class="col">
-                            <img src="../../images/intro/potential-familiars/ducky.jpg" alt="Duck"
+                            <!-- <img src="../../images/intro/potential-familiars/ducky.jpg" alt="Duck"
                                 class="img-fluid img-thumbnail" id="myImg1">
-
                             <input type="radio" name="familiar" value="duck">
+                            <figcaption>Duck</figcaption> -->
 
-                            <figcaption>Duck</figcaption>
                             <!-- <div id="myModal" class="modal">
                                 <span class="close">&times;</span>
                                 <img class="modal-content" id="img01">
                                 <div id="caption"></div>
                             </div> -->
+                            
+                            <label class="homescreen-familiar">
+                                <input type="radio" name="familiar" value="duck">
+                                <img src="../../images/intro/potential-familiars/ducky.jpg" class="img-fluid img-thumbnail" alt="Duck" id="myImg1">
+                                <figcaption>Duck</figcaption>
+                            </label>
                         </div>
                         <div class="col">
-                            <img src="../../images/intro/potential-familiars/bird.jpg" alt="Bird"
+                            <!-- <img src="../../images/intro/potential-familiars/bird.jpg" alt="Bird"
                                 class="img-fluid img-thumbnail" id="myImg2">
 
                             <input type="radio" name="familiar" value="bird">
 
-                            <figcaption>Bird</figcaption>
+                            <figcaption>Bird</figcaption> -->
                             <!-- <div id="myModal" class="modal">
                                 <span class="close">&times;</span>
                                 <img class="modal-content" id="img01">
                                 <div id="caption"></div>
                             </div> -->
+                            <label class="homescreen-familiar">
+                                <input type="radio" name="familiar" value="bird">
+                                <img src="../../images/intro/potential-familiars/bird.jpg" class="img-fluid img-thumbnail" alt="Bird" id="myImg2">
+                                <figcaption>Bird</figcaption>
+                            </label>
                         </div>
                         <div class="col">
-                            <img src="../../images/intro/potential-familiars/alien-02.jpg" alt="Alien"
+                            <!-- <img src="../../images/intro/potential-familiars/alien-02.jpg" alt="Alien"
                                 class="img-fluid img-thumbnail" id="myImg3">
 
                             <input type="radio" name="familiar" value="alien">
 
-                            <figcaption>Alien</figcaption>
+                            <figcaption>Alien</figcaption> -->
                             <!-- <div id="myModal" class="modal">
                                 <span class="close">&times;</span>
                                 <img class="modal-content" id="img01">
                                 <div id="caption"></div>
                             </div> -->
+                            <label class="homescreen-familiar">
+                                <input type="radio" name="familiar" value="alien">
+                                <img src="../../images/intro/potential-familiars/alien-02.jpg" class="img-fluid img-thumbnail" alt="Alien" id="myImg3">
+                                <figcaption>Alien</figcaption>
+                            </label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
-                            <img src="../../images/intro/potential-familiars/dino.jpg" alt="Dino"
+                            <!-- <img src="../../images/intro/potential-familiars/dino.jpg" alt="Dino"
                                 class="img-fluid img-thumbnail" id="myImg4">
 
                             <input type="radio" name="familiar" value="dino">
 
-                            <figcaption>Dino</figcaption>
+                            <figcaption>Dino</figcaption> -->
                             <!-- <div id="myModal" class="modal">
                                 <span class="close">&times;</span>
                                 <img class="modal-content" id="img01">
                                 <div id="caption"></div>
                             </div> -->
+                            <label class="homescreen-familiar">
+                                <input type="radio" name="familiar" value="dino">
+                                <img src="../../images/intro/potential-familiars/dino.jpg" class="img-fluid img-thumbnail" alt="Dino" id="myImg4">
+                                <figcaption>Dino</figcaption>
+                            </label>
                         </div>
                         <div class="col">
-                            <img src="../../images/intro/potential-familiars/noodnic.jpg" alt="Mouse"
+                            <!-- <img src="../../images/intro/potential-familiars/noodnic.jpg" alt="Mouse"
                                 class="img-fluid img-thumbnail" id="myImg5">
 
                             <input type="radio" name="familiar" value="mouse">
 
-                            <figcaption>Mouse</figcaption>
+                            <figcaption>Mouse</figcaption> -->
                             <!-- <div id="myModal" class="modal">
                                 <span class="close">&times;</span>
                                 <img class="modal-content" id="img01">
                                 <div id="caption"></div>
                             </div> -->
+                            <label class="homescreen-familiar">
+                                <input type="radio" name="familiar" value="mouse">
+                                <img src="../../images/intro/potential-familiars/noodnic.jpg" class="img-fluid img-thumbnail" alt="Mouse" id="myImg5">
+                                <figcaption>Mouse</figcaption>
+                            </label>
                         </div>
                         <div class="col">
-                            <img src="../../images/intro/potential-familiars/selki.jpg" alt="Selki"
+                            <!-- <img src="../../images/intro/potential-familiars/selki.jpg" alt="Selki"
                                 class="img-fluid img-thumbnail" id="myImg6">
 
                             <input type="radio" name="familiar" value="selki">
 
-                            <figcaption>Selki</figcaption>
+                            <figcaption>Selki</figcaption> -->
                             <!-- <div id="myModal" class="modal">
                                 <span class="close">&times;</span>
                                 <img class="modal-content" id="img01">
                                 <div id="caption"></div>
                             </div> -->
+                            <label class="homescreen-familiar">
+                                <input type="radio" name="familiar" value="selki">
+                                <img src="../../images/intro/potential-familiars/selki.jpg" class="img-fluid img-thumbnail" alt="Selki" id="myImg6">
+                                <figcaption>Selki</figcaption>
+                            </label>
                         </div>
                     </div>
                 </form> 
-                <input id="submitFamiliar" value="choose" type="button" class="btn btn-secondary ml-auto">
-                <a class="btn btn-outline-dark ml-auto disabled float-right" href="../index" role="button">proceed</a>
+                <input id="submitFamiliar" value="choose" type="button" class="btn btn-secondary float-right d-none">
+                <a id="homescreen-proceed-btn" class="btn btn-outline-dark ml-auto float-right d-none" href="../index" role="button">proceed</a>
 
             </div>
 

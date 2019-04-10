@@ -104,9 +104,15 @@ $(document).ready(function () {
         });
 
         $('#chooseFamiliar').text('Ah, the mighty ' + familiar + '. Great choice!');
-        $('.disabled').removeClass('disabled');
+        $(this).addClass('d-none');
+        $('#homescreen-proceed-btn').removeClass('d-none');
+       
+        
     });
 
+    $('.homescreen-familiar').click(function () {
+        $('#submitFamiliar').removeClass('d-none');
+    })
 
 
 
