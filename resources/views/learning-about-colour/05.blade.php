@@ -11,7 +11,7 @@
         </div>
         <div class="row mt-3">
             <div class="col">
-                <img src="../../images/learning-about-colour/lc04.jpg" class="img-fluid mx-auto d-block rounded panel">
+                <img src="../../images/learning-about-colour/lc04.jpg" class="img-fluid mx-auto d-block rounded panel colour-panel">
             </div>
         </div>
         <div class="row mt-2">

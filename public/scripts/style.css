@@ -31,11 +31,23 @@ html, body {
     height: 100%;
     }
   
+
+    
+  .colour-panel {
+    width: 100%;
+    max-width: 45vw;
+    height: auto;
+  }
   
     @media (max-width: 768px) {
 
       .homescreen-fairyimg {
         height: 350px;
+      }
+
+      .colour-panel {
+        max-width: 75vw;;
+        height: auto;
       }
 
     }
@@ -49,6 +61,12 @@ html, body {
     .navbar-brand img {
       height: 50px;
       width: 50px;
+    }
+
+        
+    .colour-panel {
+      max-width: 100%;
+      height: auto;
     }
    
   }
@@ -202,3 +220,5 @@ html, body {
 [type=radio]:checked + img {
   outline: 2px solid black;
 }
+
+
