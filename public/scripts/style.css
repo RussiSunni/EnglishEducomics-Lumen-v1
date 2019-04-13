@@ -178,6 +178,21 @@ html, body {
      }
   
   
+
+  /* Learning about Colour - exercise section*/
+      
+    .text-placeholder {
+      width: 45px;
+      height: 45px;
+      border: 1px solid black;
+    }
+
+	.text-drag {
+		font-size: 1.8rem;
+	}
+
+
+
   
   
      body {
