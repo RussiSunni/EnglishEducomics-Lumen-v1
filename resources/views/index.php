@@ -108,13 +108,13 @@
                 </tr>
                 <tr>
                     <td>
-                        <img src="" class="img-fluid">
+                    <img src="./images/index/learning-about-colour.svg" class="img-fluid">
                     </td>
                     <td>
                     vocabulary
                     </td>
                     <td>
-                        <button type="button" id="addCourse5" class="btn btn-info">add</button>
+                        <button type="button" id="addCourse5" class="btn btn-info">add</button> 
                     </td>
                 </tr>
             </tbody>
@@ -122,9 +122,7 @@
 
     </div>
 
-    <footer class="footer">
-            <p class="text-muted">&copy;ecomap</p>
-        </footer>
+    
 
 
         <script

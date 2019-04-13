@@ -248,3 +248,56 @@ $router->get('/spa-test/01', function () use ($router) {
 $router->get('/spa-test/02', function () use ($router) {
     return view('/spa-test/02');
 });
+
+
+$router->get('/learning-about-colour/01', function () use ($router) {
+    return view('/learning-about-colour/01');
+});
+
+$router->get('/learning-about-colour/02', function () use ($router) {
+    return view('/learning-about-colour/02');
+});
+
+$router->get('/learning-about-colour/03', function () use ($router) {
+    return view('/learning-about-colour/03');
+});
+
+$router->get('/learning-about-colour/04', function () use ($router) {
+    return view('/learning-about-colour/04');
+});
+
+$router->get('/learning-about-colour/05', function () use ($router) {
+    return view('/learning-about-colour/05');
+});
+
+$router->get('/learning-about-colour/06', function () use ($router) {
+    return view('/learning-about-colour/06');
+});
+
+$router->get('/learning-about-colour/07', function () use ($router) {
+    return view('/learning-about-colour/07');
+});
+
+$router->get('/learning-about-colour/08', function () use ($router) {
+    return view('/learning-about-colour/08');
+});
+
+$router->get('/learning-about-colour/09', function () use ($router) {
+    return view('/learning-about-colour/09');
+});
+
+$router->get('/learning-about-colour/10', function () use ($router) {
+    return view('/learning-about-colour/10');
+});
+
+$router->get('/learning-about-colour/11', function () use ($router) {
+    return view('/learning-about-colour/11');
+});
+
+$router->get('/learning-about-colour/12', function () use ($router) {
+    return view('/learning-about-colour/12');
+});
+
+$router->get('/learning-about-colour/13', function () use ($router) {
+    return view('/learning-about-colour/13');
+});

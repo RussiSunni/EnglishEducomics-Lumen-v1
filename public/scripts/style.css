@@ -8,6 +8,10 @@
   flex: 1;
 } */
 
+html, body {
+  position: relative;
+  height: 100%;
+  }
 
 @media (min-width: 576px) {
 

@@ -181,6 +181,20 @@ $(document).ready(function () {
     });
 
 
+    $('#addCourse5').click(function () {
+        // save to db
+        url = '../api/addUserCourse.php';
+
+        $.ajax({
+            type: 'POST',
+            url: url + '?username=' + currentUser + '&courseId=' + 5,
+            success: function (data) {
+                window.location.reload();
+            }
+        });
+    });
+
+
     // show user courses - index.html and account.html
 
     var getUserCoursesUrl = '../api/getUserCourses.php';
@@ -328,6 +342,20 @@ $(document).ready(function () {
         });
     });
 
+    $('#finishedC5').click(function () {
+
+        // save to db
+        url = '../api/updateUserCourse.php';
+
+        $.ajax({
+            type: 'POST',
+            url: url + '?username=' + currentUser + '&courseId=' + 5,
+            success: function (data) {
+
+            }
+        });
+    });
+
 
 
 
@@ -380,41 +408,6 @@ $(document).ready(function () {
     });
 
 });
-
-
-// Vue test
-
-// var apptyping = new Vue({
-//     el: '#apptyping',
-//     data: {
-//         message: 'Hello Vue.js'
-//     }
-// })
-
-
-
-// Vue.component('todo-item', {
-//     props: ['todo'],
-//     template: '<li>{{ todo.text }}</li>'
-// })
-
-
-
-
-
-// // emojify returns the corresponding emoji image
-// function emojify(name) {
-// 	var out = `<img src="emojis/` + name + `.png">`
-// 	return out
-// }
-
-// var app = new Vue({
-//     el: "#app",
-//     data: {
-//         message: "hi<br>there" + emojify("celebration")
-//     }
-// })
-
 
 
 

@@ -2,7 +2,7 @@
 
 
 @section('content')
-    <div class="section">
+    <div class="section h-100">
         <div class="container">
 
             <div class="border border-dark rounded">
