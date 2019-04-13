@@ -12,6 +12,7 @@
         <div class="row mt-3">
             <div class="col">
                 <img src="../../images/learning-about-colour/lc02.jpg" class="img-fluid mx-auto d-block rounded panel">
+            </div>
         </div>
         <div class="row mt-2">
             <a class="btn btn-outline-dark mx-auto" href="04" role="button">next</a>
