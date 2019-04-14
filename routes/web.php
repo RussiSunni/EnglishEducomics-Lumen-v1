@@ -301,3 +301,7 @@ $router->get('/learning-about-colour/12', function () use ($router) {
 $router->get('/learning-about-colour/13', function () use ($router) {
     return view('/learning-about-colour/13');
 });
+
+$router->get('/learning-about-colour/14', function () use ($router) {
+    return view('/learning-about-colour/14');
+});

@@ -5,18 +5,52 @@
 
 
 <div class="content">
-    <div class="container">
-        <div class="row justify-content-center mt-3">
-            <img src="" class="img-fluid">
+    <div class="container text-drag">
+        <div class="row mt-3">
+            <div class="col">
+                <img src="../../images/learning-about-colour/lc12.jpg" class="img-fluid mx-auto d-block rounded panel colour-panel">
+            </div>
         </div>
 
-        <p>You have completed the course!</p>
+        <div class="row mt-2 justify-content-center">
+            <p>If we mix yellow and orange, we get an <div class="word-placeholder ml-3 mr-3" ondrop="drop(event)" ondragover="allowDrop(event)"></div> color.
+        </div>
+        
+        <div class="row mt-2 justify-content-center">
+            <p class="mr-3">choose: </p>
+            <span id="drag1" draggable="true" ondragstart="drag(event)" width="45" height="45" class="mr-1 border border-dark">chartreuse</span>
+            <span id="drag2" draggable="true" ondragstart="drag(event)" width="45" height="45" class="mr-1 border border-dark">red</span>
+            <span id="drag3" draggable="true" ondragstart="drag(event)" width="45" height="45" class="mr-1 border border-dark">amber</span>
+            <span id="drag4" draggable="true" ondragstart="drag(event)" width="45" height="45" class="mr-1 border border-dark">orange</span>
+        </div>
 
-        <a class="btn btn-outline-dark ml-auto" href="01" role="button">I would like to continue with this course</a>
-        <a id="finishedC5" class="btn btn-outline-dark ml-auto" href="../../index" role="button">I am finished the course</a>
-
+        
+     
+        <div class="row mt-2">
+            <a class="btn btn-outline-dark mx-auto" href="14" role="button">next</a>
+        </div>
     </div>
 </div>
 
- 
+
+
+<script>
+    function allowDrop(ev) {
+        ev.preventDefault();
+    }
+
+    function drag(ev) {
+        ev.dataTransfer.setData("text", ev.target.id);
+    }
+
+    var i = false;
+
+    function drop(ev) {
+        
+        ev.preventDefault();
+        var data = ev.dataTransfer.getData("text");
+        ev.target.appendChild(document.getElementById(data));
+    }
+</script>
+
 @endsection
