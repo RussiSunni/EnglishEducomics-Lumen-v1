@@ -170,22 +170,28 @@ html, body {
   
   /* Message in a Bottle - exercise section*/
      
-     .placeholder {
-       width: 350px;
-       height: 70px;
-       padding: 10px;
-       border: 1px solid #aaaaaa;
+    .placeholder {
+		width: 350px;
+		height: 70px;
+		padding: 10px;
+		border: 1px solid #aaaaaa;
      }
   
   
 
   /* Learning about Colour - exercise section*/
       
-    .text-placeholder {
-      width: 45px;
-      height: 45px;
-      border: 1px solid black;
-    }
+    .letter-placeholder {
+		width: 45px;
+		height: 45px;
+		border: 1px solid black;
+	}
+	
+	.word-placeholder {
+		width: 100px;
+		height: 45px;
+		border: 1px solid black;
+	}
 
 	.text-drag {
 		font-size: 1.8rem;
@@ -195,9 +201,9 @@ html, body {
 
   
   
-     body {
-      display: flex;
-      flex-direction: column;
+    body {
+		display: flex;
+		flex-direction: column;
     }
     
   

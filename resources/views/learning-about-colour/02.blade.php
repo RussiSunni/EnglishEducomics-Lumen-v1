@@ -15,10 +15,10 @@
         <div class="row mt-2 justify-content-center">
             
             <p class="mr-3">My name is </p> 
-            <div class="text-placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div class="text-placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div class="text-placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div class="text-placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="letter-placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="letter-placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="letter-placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="letter-placeholder" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
         </div>
         <div class="row mt-2 justify-content-center">
             <p class="mr-3">choose:</p>
