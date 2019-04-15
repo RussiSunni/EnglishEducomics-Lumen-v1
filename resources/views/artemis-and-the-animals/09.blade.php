@@ -11,7 +11,7 @@
 
             <div class="row mt-3">
                 <div class="col">
-                    <img src="../../images/artemis-and-the-animals/artemis-008.jpg" class="img-fluid mx-auto d-block rounded panel">
+                    <img src="../../images/artemis-and-the-animals/artemis-008.jpg" class="img-fluid mx-auto d-block rounded panel img-fullscreen">
                 </div>
             </div>
 
@@ -19,7 +19,7 @@
                 <a class="btn btn-outline-dark mx-auto" href="10" role="button">next</a>
             </div>
         </div>
-    </div
+    </div>
         
 
  

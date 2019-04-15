@@ -5,7 +5,7 @@
 
 
     <div class="content">
-        <div class="container">
+        <div class="container text-drag">
             <div class="row justify-content-center mt-3">
                 <img src="../../images/my-family/my-family.svg" class="img-fluid">
             </div>

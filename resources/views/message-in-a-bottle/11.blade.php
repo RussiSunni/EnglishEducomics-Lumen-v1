@@ -17,6 +17,12 @@
                 </div>
             </div>
 
+            <div class="row">
+                <div class="col">
+                    <p>She accused the maids ... stealing the ring.</p>
+                </div>
+            </div>
+
             <div class="row mt-2">
                 <a class="btn btn-outline-dark mx-auto" href="12" role="button">next</a>
             </div>

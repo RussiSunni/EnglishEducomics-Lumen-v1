@@ -41,84 +41,88 @@
 
 
     <div class="container">
-        <h3 class="text-center mt-4">My stories</h3>
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th scope="col">Name</th>
-                    <th scope="col">Completed</th>
-                </tr>
-            </thead>
-            <tbody id="userCourseList"></tbody>
-        </table>
+        <div class="col-md-9">
+            <h3 class="text-center mt-4">My stories</h3>
+            <table class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Completed</th>
+                    </tr>
+                </thead>
+                <tbody id="userCourseList"></tbody>
+            </table>
 
 
-        <h3 class="text-center mt-4">All stories</h3>
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th scope="col">Name</th>
-                    <th scope="col">Category</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <img src="./images/index/my-family-title.svg" class="img-fluid">
-                    </td>
-                    <td>
+            <h3 class="text-center mt-4">All stories</h3>
+            <table class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="./images/index/my-family-title.svg" class="img-fluid">
+                        </td>
+                        <td>
+                            vocabulary
+                        </td>
+                        <td>
+                            <button type="button" id="addCourse1" class="btn btn-info">add</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="./images/index/artemis-and-the-animals-title.svg" class="img-fluid">
+                        </td>
+                        <td>
+                            vocabulary
+                        </td>
+                        <td>
+                            <button type="button" id="addCourse2" class="btn btn-info">add</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="./images/index/message-in-a-bottle-title.svg" class="img-fluid">
+                        </td>
+                        <td>
+                            vocabulary
+                        </td>
+                        <td>
+                            <button type="button" id="addCourse3" class="btn btn-info">add</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="./images/index/a-trip-to-victorian-england-title.svg" class="img-fluid">
+                        </td>
+                        <td>
+                            grammar
+                        </td>
+                        <td>
+                            <button type="button" id="addCourse4" class="btn btn-info">add</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <img src="./images/index/learning-about-colour.svg" class="img-fluid">
+                        </td>
+                        <td>
                         vocabulary
-                    </td>
-                    <td>
-                        <button type="button" id="addCourse1" class="btn btn-info">add</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="./images/index/artemis-and-the-animals-title.svg" class="img-fluid">
-                    </td>
-                    <td>
-                        vocabulary
-                    </td>
-                    <td>
-                        <button type="button" id="addCourse2" class="btn btn-info">add</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="./images/index/message-in-a-bottle-title.svg" class="img-fluid">
-                    </td>
-                    <td>
-                        vocabulary
-                    </td>
-                    <td>
-                        <button type="button" id="addCourse3" class="btn btn-info">add</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="./images/index/a-trip-to-victorian-england-title.svg" class="img-fluid">
-                    </td>
-                    <td>
-                        grammar
-                    </td>
-                    <td>
-                        <button type="button" id="addCourse4" class="btn btn-info">add</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    <img src="./images/index/learning-about-colour.svg" class="img-fluid">
-                    </td>
-                    <td>
-                    vocabulary
-                    </td>
-                    <td>
-                        <button type="button" id="addCourse5" class="btn btn-info">add</button> 
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+                        </td>
+                        <td>
+                            <button type="button" id="addCourse5" class="btn btn-info">add</button> 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-3">
+        </div>
 
     </div>
 

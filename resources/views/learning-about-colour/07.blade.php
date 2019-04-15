@@ -19,9 +19,9 @@
         <div class="row mt-2 justify-content-center">
             <p class="mr-3">choose: </p>
            
-            <span id="drag1" draggable="true" ondragstart="drag(event)" width="45" height="45" class="mr-1 border border-dark">blue</span>
-            <span id="drag2" draggable="true" ondragstart="drag(event)" width="45" height="45" class="mr-1 border border-dark">purple</span>
-            <span id="drag3" draggable="true" ondragstart="drag(event)" width="45" height="45" class="mr-1 border border-dark">blue</span>
+            <span id="drag1" draggable="true" ondragstart="drag(event)" width="45" height="45" class="mr-1 px-1 bg-light border border-dark">blue</span>
+            <span id="drag2" draggable="true" ondragstart="drag(event)" width="45" height="45" class="mr-1 px-1 bg-light border border-dark">purple</span>
+            <span id="drag3" draggable="true" ondragstart="drag(event)" width="45" height="45" class="mr-1 px-1 bg-light border border-dark">blue</span>
         </div>
 
         <div class="row mt-2">

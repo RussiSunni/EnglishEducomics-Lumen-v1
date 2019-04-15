@@ -17,6 +17,12 @@
                 </div>
             </div>
 
+            <div class="row">
+                <div class="col">
+                    <p>Nothing can prevent .</p>
+                </div>
+            </div>
+
             <div class="row mt-2">
                 <a class="btn btn-outline-dark mx-auto" href="13" role="button">next</a>
             </div>

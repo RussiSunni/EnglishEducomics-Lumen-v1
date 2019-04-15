@@ -172,10 +172,9 @@ html, body {
      
     .placeholder {
 		width: 350px;
-		height: 70px;
-		padding: 10px;
-		border: 1px solid #aaaaaa;
-     }
+		height: 45px;
+		border: 1px solid black;
+    }
   
   
 
@@ -193,8 +192,14 @@ html, body {
 		border: 1px solid black;
 	}
 
+	.draggable {
+		height: 45px;
+	}
+
+
 	.text-drag {
 		font-size: 1.8rem;
+		font-family: 'Indie Flower', cursive;
 	}
 
 
@@ -240,6 +245,75 @@ html, body {
 /* CHECKED STYLES */
 [type=radio]:checked + img {
   outline: 2px solid black;
+}
+
+
+.img-fullscreen {
+  max-height: 74vh;
+}
+
+
+
+
+
+
+#imgMapContainer {
+    position: relative;
+    width: 800px;
+}
+#animal1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    height: 200px;
+    width: 400px;
+   border: 1px dotted black;
+}
+#animal2 {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    display: none;
+    height: 200px;
+    width: 400px;
+    border: 1px dotted black;
+}
+#animal3 {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    display: none;
+    height: 200px;
+    width: 400px;
+    border: 1px dotted black;
+}
+#animal4 {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    display: none;
+    height: 200px;
+    width: 400px;
+    border: 1px dotted black;
+}
+#animal5 {
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    display: none;
+    height: 200px;
+    width: 400px;
+    border: 1px dotted black;
+}
+#animal6 {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    display: none;
+    height: 200px;
+    width: 400px;
+    border: 1px dotted black;
 }
 
 
