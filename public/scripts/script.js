@@ -1,5 +1,14 @@
 $(document).ready(function () {
 
+   
+  
+ 
+  
+    // function doThis(str){
+    //     document.getElementById(str).style.display='block';
+    // }
+    // $('map').imageMapResize();
+   
     // Website.html ------------------------
 
 
