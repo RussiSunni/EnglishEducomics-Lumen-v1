@@ -1,398 +1,376 @@
 
-
-
-
 html, body {
 	position: relative;
+
+	background-color: #d6b47e!important;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+a {
+	color: black;
+}
+		
+.website-body {
+	background: #d2d4e6!important;
 	height: 100%;
-	background-color: #d6b47e;
+}
+
+
+.colour-panel {
+	width: 100%;
+	max-width: 45vw;
+	height: auto;
+}
+
+@media (max-width: 768px) {
+
+	.homescreen-fairyimg {
+		height: 350px;
 	}
 
-
-
-	
-	/* from Sunshine English School */
-	
-		
 	.colour-panel {
-		width: 100%;
-		max-width: 45vw;
+		max-width: 75vw;;
 		height: auto;
 	}
-	
-		@media (max-width: 768px) {
-
-			.homescreen-fairyimg {
-				height: 350px;
-			}
-
-			.colour-panel {
-				max-width: 75vw;;
-				height: auto;
-			}
-
-		}
+}
 
 
 
-	 /* for mobile screens */
-	@media (max-width: 576px) {
-	
+/* for mobile screens */
+
+@media (max-width: 576px) {
+
 	/*logo image */
-		.navbar-brand img {
-			height: 50px;
-			width: 50px;
-		}
+	.navbar-brand img {
+		height: 50px;
+		width: 50px;
+	}
 
-				
-		.colour-panel {
-			max-width: 100%;
-			height: auto;
-		}
-	 
+	.colour-panel {
+		max-width: 100%;
+		height: auto;
 	}
+}
 	
+		
+.dialogue {
+	text-align:center; color:white;
+}
+			
+.continue {
+	text-align:right
+}
+		
+.centerimage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+		
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: 180px;
+}
 	
+.vocab-list 
+{
+	background-color: brown!important;
+	border: 1px solid white!important;
+	border-radius: 2%;
+	color: pink;
+}
+
+.footer {
+	width: 100%;
+	height: 40px; /* Set the fixed height of the footer here */
+	line-height: 0px; /* Vertically center the text there */
+	background-color: #E8B274;
+	text-align: right;
+	padding-right: 10px;
+}
 	
+.syllabus-btn
+{
+	background-color: orangered;
+	color: beige;
+	border: 1px solid black!important;
+}
+
+
+.exercise-images
+{
+	max-height: 70vh;
+}
+
 	
-	
-	
-	
-	
-	.website-body {
-	background: #d2d4e6!important;
+@media only screen and (max-width: 600px){
+	img {
+		margin-left:auto;
+		margin-right:auto;
 	}
-	
-	
-	.dialogue {
-				text-align:center; color:white;
-			}
 				
 	.continue {
-				text-align:right
-			}
-	
-	
-	.centerimage {
-					display: block;
-					margin-left: auto;
-					margin-right: auto;
-				}
-			
+		text-align: auto;
+		margin-bottom: 40px;
+	}
 	
 	.center {
-				display: block;
-				margin-left: auto;
-				margin-right: 180px;
-			}
-	
-	
-	.vocab-list 
-	{
-		background-color: brown!important;
-		border: 1px solid white!important;
-		border-radius: 2%;
-		color: pink;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
-	
-	.footer {
-		width: 100%;
-		height: 40px; /* Set the fixed height of the footer here */
-		line-height: 0px; /* Vertically center the text there */
-		background-color: #E8B274;
-		text-align: right;
-		padding-right: 10px;
-		}
+	.left {	
+		float:left;
+	}				
+}
 	
 	
-	.syllabus-btn
-	{
-		background-color: orangered;
-		color: beige;
-		border: 1px solid black!important;
-	}
 	
-	.exercise-images
-	{
-		max-height: 70vh;
-	
-	}
-	
-	@media only screen and (max-width: 600px){
-			img {
-				margin-left:auto;
-				margin-right:auto;
-				
-			}
-						
-			.continue {
-				text-align: auto;
-				margin-bottom: 40px;
-			}
-			
-			
-			.center {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-			}
-			
+/* Message in a Bottle - exercise section*/
 		
-			.left {	float:left;
-			}				
-		}
-	
-	
-	
-	/* Message in a Bottle - exercise section*/
-		 
-		.placeholder {
-			width: 350px;
-			height: 45px;
-			border: 1px solid black;
-		}
+.placeholder {
+	width: 350px;
+	height: 45px;
+	border: 1px solid black;
+}
 	
 	
 
-	/* Learning about Colour - exercise section*/
-			
-	.letter-placeholder {
-		width: 45px;
-		height: 45px;
-		border: 1px solid black;
-	}
-	
-	.word-placeholder {
-		width: 100px;
-		height: 45px;
-		border: 1px solid black;
-	}
+/* Learning about Colour - exercise section*/
+		
+.letter-placeholder {
+	width: 45px;
+	height: 45px;
+	border: 1px solid black;
+}
 
-	.draggable {
-		height: 45px;
-	}
+.word-placeholder {
+	width: 100px;
+	height: 45px;
+	border: 1px solid black;
+}
 
+.draggable {
+	height: 45px;
+}
 
+.text-drag {
+	font-size: 1.8rem;
+	font-family: 'Indie Flower', cursive;
+}
 
+@media screen and (max-width: 768px) {
 	.text-drag {
-		font-size: 1.8rem;
+		font-size: 1.4rem;
 		font-family: 'Indie Flower', cursive;
 	}
+}
 
-	@media screen and (max-width: 768px) {
-		.text-drag {
-			font-size: 1.4rem;
-			font-family: 'Indie Flower', cursive;
-		}
-	
-	}
+.text {
+	font-size: 1.2rem;
+	font-family: 'Indie Flower', cursive;
+}
 
 
+.content {
+	flex: 1 0 auto;
+}
 
-
-
-
-	
-	
-	body {
-		display: flex;
-		flex-direction: column;
-	}
+.footer {
+	flex-shrink: 0;
+}
 	
 
-	.content {
-		flex: 1 0 auto;
-	}
-	
-	.footer {
-		flex-shrink: 0;
-	}
-		
-	
-	 .panel {
-		 background: #a7c6eb;
-		 border: 2px solid black!important;
-	 }
+.panel {
+	background: #a7c6eb;
+	border: 2px solid black!important;
+}
 
  
 
-	 /* for the Home view, for choosing familiar*/
+	/* for the Home view, for choosing familiar*/
 
-	 /* HIDE RADIO */
-	[type=radio] { 
-		position: absolute;
-		opacity: 0;
-		width: 0;
-		height: 0;
-	}
+	/* HIDE RADIO */
+[type=radio] { 
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
 
-	/* IMAGE STYLES */
-	[type=radio] + img {
-		cursor: pointer;
-	}
+/* IMAGE STYLES */
+[type=radio] + img {
+	cursor: pointer;
+}
 
-	/* CHECKED STYLES */
-	[type=radio]:checked + img {
-		outline: 2px solid black;
-	}
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+	outline: 2px solid black;
+}
 
 
-	.img-fullscreen {
-		max-height: 74vh;
-	}
+.img-fullscreen {
+	max-height: 74vh;
+}
 
 
 /* Artemis and the Animals ---------------------------- */
 
+#imgMapContainer {
+		position: relative;
+		width: 800px;
+}
+
+
+
+@media screen and (max-width: 992px) {
 	#imgMapContainer {
-			position: relative;
-			width: 800px;
+		position: relative;
+		width: 700px;
+	}
+	
+	#imgMapContainer img {
+		position: relative;
+		width: 700px;
+		height: 525px;
 	}
 
 
-
-	@media screen and (max-width: 992px) {
-		#imgMapContainer {
-			position: relative;
-			width: 700px;
-		}
-		
-		#imgMapContainer img {
-			position: relative;
-			width: 700px;
-			height: 525px;
-		}
-
-
-		#p02-1 {
-			position: absolute;
-			top: 0px;
-			left: 0px;
-			display: none;
-			height: 50px;
-			width: 350px;
-			border: 1px solid black;
-			background: white;
-		}
-	
-		#p02-2 {
-			position: absolute;
-			top: 0px;
-			left: 350px;
-			display: none;
-			height: 50px;
-			width: 350px;
-			border: 1px solid black;
-			background: white;
-		}
-	
-		#p02-3 {
-			position: absolute;
-			top: 325px;
-			left: 0px;
-			display: none;
-			height: 200px;
-			width: 700px;
-			border: 1px solid black;
-			background: white;
-		}
+	#p02-1 {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		display: none;
+		height: 50px;
+		width: 350px;
+		border: 1px solid black;
+		background: white;
 	}
 
-
-
-	@media screen and (max-width: 768px) {
-		#imgMapContainer {
-			position: relative;
-			width: 500px;
-		}
-		
-		#imgMapContainer img {
-			position: relative;
-			width: 500px;
-			height: 375px;
-		}
-
-		#p02-1 {
-			position: absolute;
-			top: 0px;
-			left: 0px;
-			display: none;
-			height: 50px;
-			width: 250px;
-			border: 1px solid black;
-			background: white;
-		}
-	
-		#p02-2 {
-			position: absolute;
-			top: 0px;
-			left: 250px;
-			display: none;
-			height: 50px;
-			width: 250px;
-			border: 1px solid black;
-			background: white;
-		}
-	
-		#p02-3 {
-			position: absolute;
-			top: 225px;
-			left: 0px;
-			display: none;
-			height: 150px;
-			width: 500px;
-			border: 1px solid black;
-			background: white;
-		}
+	#p02-2 {
+		position: absolute;
+		top: 0px;
+		left: 350px;
+		display: none;
+		height: 50px;
+		width: 350px;
+		border: 1px solid black;
+		background: white;
 	}
 
-
-	@media screen and (max-width: 576px) {
-		#imgMapContainer {
-			position: relative;
-			width: 400px;
-		}
-		
-		#imgMapContainer img {
-			position: relative;
-			width: 400px;
-			height: 300px;
-		}
-
-		#p02-1 {
-			position: absolute;
-			top: 0px;
-			left: 0px;
-			display: none;
-			height: 50px;
-			width: 200px;
-			border: 1px solid black;
-			background: white;
-		}
-	
-		#p02-2 {
-			position: absolute;
-			top: 0px;
-			left: 200px;
-			display: none;
-			height: 50px;
-			width: 200px;
-			border: 1px solid black;
-			background: white;
-		}
-	
-		#p02-3 {
-			position: absolute;
-			top: 225px;
-			left: 0px;
-			display: none;
-			height: 150px;
-			width: 400px;
-			border: 1px solid black;
-			background: white;
-		}
+	#p02-3 {
+		position: absolute;
+		top: 325px;
+		left: 0px;
+		display: none;
+		height: 200px;
+		width: 700px;
+		border: 1px solid black;
+		background: white;
 	}
+}
+
+
+
+@media screen and (max-width: 768px) {
+	#imgMapContainer {
+		position: relative;
+		width: 500px;
+	}
+	
+	#imgMapContainer img {
+		position: relative;
+		width: 500px;
+		height: 375px;
+	}
+
+	#p02-1 {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		display: none;
+		height: 50px;
+		width: 250px;
+		border: 1px solid black;
+		background: white;
+	}
+
+	#p02-2 {
+		position: absolute;
+		top: 0px;
+		left: 250px;
+		display: none;
+		height: 50px;
+		width: 250px;
+		border: 1px solid black;
+		background: white;
+	}
+
+	#p02-3 {
+		position: absolute;
+		top: 225px;
+		left: 0px;
+		display: none;
+		height: 150px;
+		width: 500px;
+		border: 1px solid black;
+		background: white;
+	}
+}
+
+
+@media screen and (max-width: 576px) {
+	#imgMapContainer {
+		position: relative;
+		width: 400px;
+	}
+	
+	#imgMapContainer img {
+		position: relative;
+		width: 400px;
+		height: 300px;
+	}
+
+	#p02-1 {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		display: none;
+		height: 50px;
+		width: 200px;
+		border: 1px solid black;
+		background: white;
+	}
+
+	#p02-2 {
+		position: absolute;
+		top: 0px;
+		left: 200px;
+		display: none;
+		height: 50px;
+		width: 200px;
+		border: 1px solid black;
+		background: white;
+	}
+
+	#p02-3 {
+		position: absolute;
+		top: 225px;
+		left: 0px;
+		display: none;
+		height: 150px;
+		width: 400px;
+		border: 1px solid black;
+		background: white;
+	}
+}
 
 
 
@@ -402,36 +380,36 @@ html, body {
 @media screen and (min-width: 992px) {
 
 	#p02-1 {
-			position: absolute;
-			top: 0px;
-			left: 0px;
-			display: none;
-			height: 50px;
-			width: 400px;
-			border: 1px solid black;
-			background: white;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		display: none;
+		height: 50px;
+		width: 400px;
+		border: 1px solid black;
+		background: white;
 	}
 
 	#p02-2 {
-			position: absolute;
-			top: 0px;
-			left: 400px;
-			display: none;
-			height: 50px;
-			width: 400px;
-			border: 1px solid black;
-			background: white;
+		position: absolute;
+		top: 0px;
+		left: 400px;
+		display: none;
+		height: 50px;
+		width: 400px;
+		border: 1px solid black;
+		background: white;
 	}
 
 	#p02-3 {
-			position: absolute;
-			top: 450px;
-			left: 0px;
-			display: none;
-			height: 150px;
-			width: 800px;
-			border: 1px solid black;
-			background: white;
+		position: absolute;
+		top: 450px;
+		left: 0px;
+		display: none;
+		height: 150px;
+		width: 800px;
+		border: 1px solid black;
+		background: white;
 	}
 }
 
@@ -439,62 +417,62 @@ html, body {
 
 
 #p03-1 {
-		position: absolute;
-		top: 0px;
-		left: 150px;
-		display: none;
-		height: 50px;
-		width: 100px;
-		border: 1px solid black;
-		background: white;
+	position: absolute;
+	top: 0px;
+	left: 150px;
+	display: none;
+	height: 50px;
+	width: 100px;
+	border: 1px solid black;
+	background: white;
 }
 #p03-2 {
-		position: absolute;
-		top: 0px;
-		left: 550px;
-		display: none;
-		height: 50px;
-		width: 100px;
-		border: 1px solid black;
-		background: white;
+	position: absolute;
+	top: 0px;
+	left: 550px;
+	display: none;
+	height: 50px;
+	width: 100px;
+	border: 1px solid black;
+	background: white;
 }
 #p03-3 {
-		position: absolute;
-		top: 350px;
-		left: 0px;
-		display: none;
-		height: 50px;
-		width: 100px;
-		border: 1px solid black;
-		background: white;
+	position: absolute;
+	top: 350px;
+	left: 0px;
+	display: none;
+	height: 50px;
+	width: 100px;
+	border: 1px solid black;
+	background: white;
 }
 #p03-4 {
-		position: absolute;
-		top: 350px;
-		left: 700px;
-		display: none;
-		height: 50px;
-		width: 100px;
-		border: 1px solid black;
-		background: white;
+	position: absolute;
+	top: 350px;
+	left: 700px;
+	display: none;
+	height: 50px;
+	width: 100px;
+	border: 1px solid black;
+	background: white;
 }
 #p03-5 {
-		position: absolute;
-		top: 550px;
-		left: 0px;
-		display: none;
-		height: 50px;
-		width: 200px;
-		border: 1px solid black;
-		background: white;
+	position: absolute;
+	top: 550px;
+	left: 0px;
+	display: none;
+	height: 50px;
+	width: 200px;
+	border: 1px solid black;
+	background: white;
 }
 #p03-6 {
-		position: absolute;
-		top: 550px;
-		left: 500px;
-		display: none;
-		height: 50px;
-		width: 150px;
-		border: 1px solid black;
-		background: white;
+	position: absolute;
+	top: 550px;
+	left: 500px;
+	display: none;
+	height: 50px;
+	width: 150px;
+	border: 1px solid black;
+	background: white;
 }

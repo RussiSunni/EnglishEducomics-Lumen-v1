@@ -8,6 +8,7 @@
         
             <h3 class="mb-3">Welcome to "Artemis and the Animals"</h3>
             <p><strong>objectives:</strong> learn vocabulary about the animals</p>
+            help Artemis name the animals
 
         <a class="btn btn-outline-dark ml-auto" href="02" role="button"> to being, click here</a>
         </div>

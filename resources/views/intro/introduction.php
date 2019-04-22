@@ -15,7 +15,7 @@
 
 			<h3 class="mt-3 mb-3">Welcome to Sunshine English School</h3>
 
-			<img src="../../images/intro/writing.jpeg" class="rounded mb-3 border border-dark" height="400" width="300">
+			<img src="../../images/intro/writing.png" class="rounded mb-3 border border-dark panel" height="400" width="300">
 			<div id="introduction">
 				<p>Hello child,<br>
 				Welcome to Sunshine English School.</p>

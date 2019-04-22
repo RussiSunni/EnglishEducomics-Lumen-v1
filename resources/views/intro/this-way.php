@@ -14,7 +14,7 @@
         <div align="center">
             <h3 class="mt-3 mb-3">Welcome to Sunshine English School</h3>
           
-                <img src="../../images/intro/this-way.jpg" class="rounded mb-3 border border-dark" height="400" width="300">
+                <img src="../../images/intro/this-way.png" class="rounded mb-3 border border-dark panel" height="400" width="300">
             
                     <p>This way, child. <strong>There is much to do.</strong></p>
                   

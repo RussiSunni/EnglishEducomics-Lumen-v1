@@ -40,88 +40,95 @@
 
 
 
-    <div class="container">
-        <div class="col-md-9">
-            <h3 class="text-center mt-4">My stories</h3>
-            <table class="table table-hover">
-                <thead class="thead-light">
-                    <tr>
-                        <th scope="col">Name</th>
-                        <th scope="col">Completed</th>
-                    </tr>
-                </thead>
-                <tbody id="userCourseList"></tbody>
-            </table>
+    <div class="container text">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="border border-dark rounded mt-2">
+                    <!-- <div>
+                        <img src="../../images/index/map.jpg">
+                    </div> -->
+                    <!-- <h3 class="text-center mt-2">My stories</h3>
+                    <table class="table table-hover">
+                        <tbody id="userCourseList"></tbody>
+                    </table> -->
+                    <img src="../../images/index/map.jpg" width=700 height=600 alt="Planets" usemap="#planetmap">
 
+                    <map name="planetmap">
+                        <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+                        <area shape="rect" coords="90,58,3" alt="Mercury" href="mercur.htm">
+                        <area shape="rect" coords="124,58,8" alt="Venus" href="venus.htm">
+                    </map>
 
-            <h3 class="text-center mt-4">All stories</h3>
-            <table class="table table-hover">
-                <thead class="thead-light">
-                    <tr>
-                        <th scope="col">Name</th>
-                        <th scope="col">Category</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <img src="./images/index/my-family-title.svg" class="img-fluid">
-                        </td>
-                        <td>
-                            vocabulary
-                        </td>
-                        <td>
-                            <button type="button" id="addCourse1" class="btn btn-info">add</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img src="./images/index/artemis-and-the-animals-title.svg" class="img-fluid">
-                        </td>
-                        <td>
-                            vocabulary
-                        </td>
-                        <td>
-                            <button type="button" id="addCourse2" class="btn btn-info">add</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img src="./images/index/message-in-a-bottle-title.svg" class="img-fluid">
-                        </td>
-                        <td>
-                            vocabulary
-                        </td>
-                        <td>
-                            <button type="button" id="addCourse3" class="btn btn-info">add</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img src="./images/index/a-trip-to-victorian-england-title.svg" class="img-fluid">
-                        </td>
-                        <td>
-                            grammar
-                        </td>
-                        <td>
-                            <button type="button" id="addCourse4" class="btn btn-info">add</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <img src="./images/index/learning-about-colour.svg" class="img-fluid">
-                        </td>
-                        <td>
-                        vocabulary
-                        </td>
-                        <td>
-                            <button type="button" id="addCourse5" class="btn btn-info">add</button> 
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="col-md-3">
+                </div>
+               
+
+                <!-- <div class="border border-dark rounded mt-2">
+                    <h3 class="text-center mt-2">All stories</h3>
+                    <table class="table table-hover">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    My Family
+                                </td>
+                                <td>
+                                    vocabulary
+                                </td>
+                                <td>
+                                    <button type="button" id="addCourse1" class="btn btn-info">add</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Artemis and the Animals
+                                </td>
+                                <td>
+                                    vocabulary
+                                </td>
+                                <td>
+                                    <button type="button" id="addCourse2" class="btn btn-info">add</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Message in a Bottle
+                                </td>
+                                <td>
+                                    vocabulary
+                                </td>
+                                <td>
+                                    <button type="button" id="addCourse3" class="btn btn-info">add</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    A Trip to Victorian England
+                                </td>
+                                <td>
+                                    grammar
+                                </td>
+                                <td>
+                                    <button type="button" id="addCourse4" class="btn btn-info">add</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Learning about Colour
+                                </td>
+                                <td>
+                                    vocabulary
+                                </td>
+                                <td>
+                                    <button type="button" id="addCourse5" class="btn btn-info">add</button> 
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div> -->
+            </div>
+            <div class="col-md-5 my-auto text-center">
+                <span class="bg-light border border-dark rounded p-1">Would you mind  choosing a story, please</span>
+                <img src="./images/intro/fairy.png" class="img-fluid mt-3">
+            </div>
         </div>
 
     </div>
@@ -130,9 +137,9 @@
 
 
         <script
-                src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
-                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-                crossorigin="anonymous"></script>
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
             integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
             crossorigin="anonymous"></script>
@@ -144,3 +151,6 @@
 
 </html>
 
+
+
+ 
