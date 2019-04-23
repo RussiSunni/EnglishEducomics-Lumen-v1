@@ -42,8 +42,8 @@
 
     <div class="container text">
         <div class="row">
-            <div class="col-md-7">
-                <div class="border border-dark rounded mt-2">
+            <div class="col-md-8">
+            
                     <!-- <div>
                         <img src="../../images/index/map.jpg">
                     </div> -->
@@ -51,84 +51,38 @@
                     <table class="table table-hover">
                         <tbody id="userCourseList"></tbody>
                     </table> -->
-                    <img src="../../images/index/map.jpg" width=700 height=600 alt="Planets" usemap="#planetmap">
+                    <a href="/artemis-and-the-animals/01" id="artemis">
+                        Artemis
+                    </a>
+                    <a href="/learning-about-colour/01" id="iris">
+                        Iris
+                    </a>
+                    <a href="/a-trip-to-victorian-england/01" id="town">
+                        Town
+                    </a>
+                    <a href="/message-in-a-bottle/01" id="fisherhaven">
+                        Fisherhaven
+                    </a>
+                    <a href="/my-family/01" id="village">
+                        Village
+                    </a>
+                    <img src="../../images/index/map.jpg" width=700 height=588 alt="map" usemap="#map" class="border border-dark rounded mt-2">
+            
+                    <!-- <map name="map">
+                        <area shape="rect" coords="600,0,700,300" alt="Iris" href="/learning-about-colour/01">
+                        <area shape="rect" coords="0,100,300,400" alt="Artemis" href="/artemis-and-the-animals/01">
+                        <area shape="rect" coords="300,120,420,220" alt="Town" href="/a-trip-to-victorian-england/01">
+                        <area shape="rect" coords="320,450,670,600" alt="Fisherhaven" href="/message-in-a-bottle/01">
+                        <area shape="rect" coords="420,250,510,330" alt="My Family" href="/my-family/01">
+                    </map> -->
 
-                    <map name="planetmap">
-                        <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
-                        <area shape="rect" coords="90,58,3" alt="Mercury" href="mercur.htm">
-                        <area shape="rect" coords="124,58,8" alt="Venus" href="venus.htm">
-                    </map>
-
-                </div>
-               
-
-                <!-- <div class="border border-dark rounded mt-2">
-                    <h3 class="text-center mt-2">All stories</h3>
-                    <table class="table table-hover">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    My Family
-                                </td>
-                                <td>
-                                    vocabulary
-                                </td>
-                                <td>
-                                    <button type="button" id="addCourse1" class="btn btn-info">add</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Artemis and the Animals
-                                </td>
-                                <td>
-                                    vocabulary
-                                </td>
-                                <td>
-                                    <button type="button" id="addCourse2" class="btn btn-info">add</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Message in a Bottle
-                                </td>
-                                <td>
-                                    vocabulary
-                                </td>
-                                <td>
-                                    <button type="button" id="addCourse3" class="btn btn-info">add</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    A Trip to Victorian England
-                                </td>
-                                <td>
-                                    grammar
-                                </td>
-                                <td>
-                                    <button type="button" id="addCourse4" class="btn btn-info">add</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Learning about Colour
-                                </td>
-                                <td>
-                                    vocabulary
-                                </td>
-                                <td>
-                                    <button type="button" id="addCourse5" class="btn btn-info">add</button> 
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div> -->
             </div>
-            <div class="col-md-5 my-auto text-center">
+            <div class="col-md-4 my-auto text-center">
                 <span class="bg-light border border-dark rounded p-1">Would you mind  choosing a story, please</span>
                 <img src="./images/intro/fairy.png" class="img-fluid mt-3">
+           
             </div>
+         
         </div>
 
     </div>
@@ -154,3 +108,7 @@
 
 
  
+
+
+
+

@@ -476,3 +476,55 @@ a {
 	border: 1px solid black;
 	background: white;
 }
+
+
+/* map overlays*/
+
+#artemis {
+	z-index: 2;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	border: 1px solid red;
+	top: 100px;
+}
+
+#iris {
+	z-index: 2;
+	width: 100px;
+	height: 200px;
+	position: absolute;
+	border: 1px solid red;
+	left: 600px;
+	top: 100px;
+}
+
+#town {
+	z-index: 2;
+	width: 140px;
+	height: 100px;
+	position: absolute;
+	border: 1px solid red;
+	left: 314px;
+	top: 140px;
+}
+
+#fisherhaven {
+	z-index: 2;
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	border: 1px solid red;
+	left: 380px;
+	top: 470px;
+}
+
+#village {
+	z-index: 2;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	border: 1px solid red;
+	left: 440px;
+	top: 270px;
+}
