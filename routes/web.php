@@ -28,6 +28,7 @@ $router->get('/account', function () use ($router) {
 });
 
 
+
 $router->get('/intro/introduction', function () use ($router) {
     return view('intro/introduction');
 });
@@ -36,9 +37,39 @@ $router->get('/intro/this-way', function () use ($router) {
     return view('intro/this-way');
 });
 
+$router->get('/intro/animatic01', function () use ($router) {
+    return view('/intro/animatic01');
+});
+
+$router->get('/intro/animatic02', function () use ($router) {
+    return view('/intro/animatic02');
+});
+
+$router->get('/intro/animatic03', function () use ($router) {
+    return view('/intro/animatic03');
+});
+
+$router->get('/intro/animatic04', function () use ($router) {
+    return view('/intro/animatic04');
+});
+
+$router->get('/intro/animatic05', function () use ($router) {
+    return view('/intro/animatic05');
+});
+
+$router->get('/intro/animatic06', function () use ($router) {
+    return view('/intro/animatic06');
+});
+
+$router->get('/intro/animatic07', function () use ($router) {
+    return view('/intro/animatic07');
+});
+
+
 $router->get('/intro/home-screen', function () use ($router) {
     return view('intro/home-screen');
 });
+
 
 
 $router->get('/artemis-and-the-animals/01', function () use ($router) {

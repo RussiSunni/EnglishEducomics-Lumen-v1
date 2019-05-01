@@ -18,11 +18,23 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col">
-                   <p>I can't concentrate ... work.</p>
-                </div>
+          
+          
+            <div class="row justify-content-center mt-4">
+                <p>I can't concentrate</p>
+
+                <select class="mr-2 ml-2" id="question">
+                    <option selected>Choose...</option>
+                    <option value="1">in</option>
+                    <option value="2">on</option>
+                    <option value="3">of</option>
+                    <option value="4">from</option>
+                </select>
+
+
+                <p>work.</p>
             </div>
+        
 
             <div class="row mt-2">
                 <a class="btn btn-outline-dark mx-auto" href="09" role="button">next</a>

@@ -17,8 +17,10 @@
                 <img src="../../images/intro/this-way.png" class="rounded mb-3 border border-dark panel" height="400" width="300">
             
                     <p>This way, child. <strong>There is much to do.</strong></p>
+
+                    <p>I will update you on what has happened</p>
                   
-                    <p>Come along, do not tarry. <a href="/intro/home-screen" class="text-dark">---></a</p>
+                    <p>Come along, <strong>do not tarry.</strong> <a href="/intro/animatic01" class="text-dark">---></a</p>
         </div>
     </div>
 

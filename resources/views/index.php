@@ -42,7 +42,7 @@
 
     <div class="container text">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-lg-8">
             
                     <!-- <div>
                         <img src="../../images/index/map.jpg">
@@ -63,10 +63,10 @@
                     <a href="/message-in-a-bottle/01" id="fisherhaven">
                         Fisherhaven
                     </a>
-                    <a href="/my-family/01" id="village">
+                    <a href="/my-family/01" id="village" class="my-auto">
                         Village
                     </a>
-                    <img src="../../images/index/map.jpg" width=700 height=588 alt="map" usemap="#map" class="border border-dark rounded mt-2">
+                    <img src="../../images/index/map.jpg" width=700 height=588 alt="map" usemap="#map" class="panel" id="map">
             
                     <!-- <map name="map">
                         <area shape="rect" coords="600,0,700,300" alt="Iris" href="/learning-about-colour/01">
@@ -77,9 +77,9 @@
                     </map> -->
 
             </div>
-            <div class="col-md-4 my-auto text-center">
-                <span class="bg-light border border-dark rounded p-1">Would you mind  choosing a story, please</span>
-                <img src="./images/intro/fairy.png" class="img-fluid mt-3">
+            <div class="col-lg-4 my-auto text-center">
+                <span class="bg-light border border-dark rounded p-1">Where to next, young hero?</span>
+                <img src="./images/intro/fairy.png" class="img-fluid mt-3" id="map-fairy">
            
             </div>
          

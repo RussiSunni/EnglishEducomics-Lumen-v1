@@ -485,8 +485,10 @@ a {
 	width: 300px;
 	height: 300px;
 	position: absolute;
-	border: 1px solid red;
+	border: 1px solid rgba(50, 50, 50, 0.5);
 	top: 100px;
+	line-height: 300px;
+	text-align: center;
 }
 
 #iris {
@@ -494,9 +496,11 @@ a {
 	width: 100px;
 	height: 200px;
 	position: absolute;
-	border: 1px solid red;
+	border: 1px solid rgba(50, 50, 50, 0.5);
 	left: 600px;
 	top: 100px;
+	line-height: 200px;
+	text-align: center;
 }
 
 #town {
@@ -504,9 +508,11 @@ a {
 	width: 140px;
 	height: 100px;
 	position: absolute;
-	border: 1px solid red;
+	border: 1px solid rgba(50, 50, 50, 0.5);
 	left: 314px;
 	top: 140px;
+	line-height: 100px;
+	text-align: center;
 }
 
 #fisherhaven {
@@ -514,9 +520,11 @@ a {
 	width: 200px;
 	height: 100px;
 	position: absolute;
-	border: 1px solid red;
+	border: 1px solid rgba(50, 50, 50, 0.5);
 	left: 380px;
 	top: 470px;
+	line-height: 100px;
+	text-align: center;
 }
 
 #village {
@@ -524,7 +532,124 @@ a {
 	width: 100px;
 	height: 100px;
 	position: absolute;
-	border: 1px solid red;
+	border: 1px solid rgba(50, 50, 50, 0.5);
 	left: 440px;
 	top: 270px;
+	line-height: 100px;
+	text-align: center;
+}
+
+#village:hover, #fisherhaven:hover, #town:hover, #iris:hover, #artemis:hover {
+	background: rgba(50, 50, 50, 0.1);
+	border: 2px solid black;
+}
+
+
+@media screen and (max-width: 992px) {
+	#map-fairy {
+		width: 400px;
+	}
+
+
+
+@media screen and (max-width: 768px) {
+
+	#map-fairy {
+		width: 300px;
+	}
+
+	#map {
+		width: 500px;
+		height: 420px;
+	}
+
+	#artemis {
+		width: 200px;
+		height: 200px;
+		top: 100px;
+		line-height: 200px;
+	}
+	
+	#iris {
+		width: 50px;
+		height: 150px;
+		top: 50px;
+		left: 450px;
+		line-height: 300px;
+	}
+	
+	#town {
+		width: 100px;
+		height: 60px;
+		left: 230px;
+		top: 100px;
+		line-height: 60px;
+	}
+	
+	#fisherhaven {
+		width: 100px;
+		height: 70px;
+		left: 270px;
+		top: 330px;
+		line-height: 70px;
+	}
+	
+	#village {
+		width: 50px;
+		height: 50px;
+		left: 340px;
+		top: 200px;
+		line-height: 50px;
+	}
+}
+
+
+@media screen and (max-width: 576px) {
+	#map-fairy {
+		width: 250px;
+	}
+
+	#map {
+		width: 350px;
+		height: 294px;
+	}
+
+	#artemis {
+		width: 150px;
+		height: 125px;
+		top: 65px;
+		line-height: 125px;
+	}
+	
+	#iris {
+		width: 50px;
+		height: 100px;
+		top: 40px;
+		left: 310px;
+		line-height: 100px;
+	}
+	
+	#town {
+		width: 70px;
+		height: 60px;
+		left: 170px;
+		top: 70px;
+		line-height: 60px;
+	}
+	
+	#fisherhaven {
+		width: 100px;
+		height: 60px;
+		left: 190px;
+		top: 230px;
+		line-height: 70px;
+	}
+	
+	#village {
+		width: 50px;
+		height: 50px;
+		left: 240px;
+		top: 130px;
+		line-height: 50px;
+	}
 }
