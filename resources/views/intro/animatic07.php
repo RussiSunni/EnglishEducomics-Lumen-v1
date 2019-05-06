@@ -17,7 +17,7 @@
 
 			<img src="../../images/intro/this-way.png" class="rounded mb-3 border border-dark panel" height="400" width="300">
 			<div id="introduction">
-				<p>go to the fairy, she will guide you from here, for now <a href="/intro/home-screen" class="text-dark">---></a></p>
+				<p>go to the fairy, she will guide you from here, for now <a href="/intro/animatic08" class="text-dark">---></a></p>
 			</div>
 		</div>
 

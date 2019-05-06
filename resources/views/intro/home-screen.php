@@ -20,6 +20,7 @@
             <div class="col-12 col-md-6 col-lg-6 mt-3 my-auto">
                 <div class="row mb-3">
                     <div class="col">
+                  
                         <h5 class="text-center"><span id='chooseFamiliar'><span id="currentUser"></span>, before you proceed, you need to choose
                             your familiar</span></h5>
                     </div>

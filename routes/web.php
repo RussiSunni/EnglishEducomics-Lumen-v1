@@ -65,6 +65,10 @@ $router->get('/intro/animatic07', function () use ($router) {
     return view('/intro/animatic07');
 });
 
+$router->get('/intro/animatic08', function () use ($router) {
+    return view('/intro/animatic08');
+});
+
 
 $router->get('/intro/home-screen', function () use ($router) {
     return view('intro/home-screen');
