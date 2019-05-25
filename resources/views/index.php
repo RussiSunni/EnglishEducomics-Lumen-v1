@@ -31,7 +31,7 @@
                         <a class="nav-link" href="/admin">Admin</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="/account">Account</a>
+                        <a class="nav-link" href="/account">Your room</a>
                     </li>
                 </ul>
             </div>
@@ -40,46 +40,30 @@
 
 
 
-    <div class="container text">
+    <div class="container-fluid text">
+       
         <div class="row">
             <div class="col-lg-8">
-            
-                    <!-- <div>
-                        <img src="../../images/index/map.jpg">
-                    </div> -->
-                    <!-- <h3 class="text-center mt-2">My stories</h3>
-                    <table class="table table-hover">
-                        <tbody id="userCourseList"></tbody>
-                    </table> -->
-                    <a href="/artemis-and-the-animals/01" id="artemis">
-                        Artemis
-                    </a>
-                    <a href="/learning-about-colour/01" id="iris">
-                        Iris
-                    </a>
-                    <a href="/a-trip-to-victorian-england/01" id="town">
-                        Town
-                    </a>
-                    <a href="/message-in-a-bottle/01" id="fisherhaven">
-                        Fisherhaven
-                    </a>
-                    <a href="/my-family/01" id="village" class="my-auto">
-                        Village
-                    </a>
-                    <img src="../../images/index/map.jpg" width=700 height=588 alt="map" usemap="#map" class="panel" id="map">
-            
-                    <!-- <map name="map">
-                        <area shape="rect" coords="600,0,700,300" alt="Iris" href="/learning-about-colour/01">
-                        <area shape="rect" coords="0,100,300,400" alt="Artemis" href="/artemis-and-the-animals/01">
-                        <area shape="rect" coords="300,120,420,220" alt="Town" href="/a-trip-to-victorian-england/01">
-                        <area shape="rect" coords="320,450,670,600" alt="Fisherhaven" href="/message-in-a-bottle/01">
-                        <area shape="rect" coords="420,250,510,330" alt="My Family" href="/my-family/01">
-                    </map> -->
-
+                        <a href="/artemis-and-the-animals/01" id="artemis">
+                            Artemis
+                        </a>
+                        <a href="/learning-about-colour/01" id="iris">
+                            Iris
+                        </a>
+                        <a href="/a-trip-to-victorian-england/01" id="town">
+                            Town
+                        </a>
+                        <a href="/message-in-a-bottle/01" id="fisherhaven">
+                            Fisherhaven
+                        </a>
+                        <a href="/my-family/01" id="village" class="my-auto">
+                            Village
+                        </a>
+                        <img src="../../images/index/africa-map-01.jpg" width=700 height=588 alt="map" usemap="#map" class="panel" id="map">
             </div>
             <div class="col-lg-4 my-auto text-center">
                 <span class="bg-light border border-dark rounded p-1">Where to next, young hero?</span>
-                <img src="./images/intro/fairy.png" class="img-fluid mt-3" id="map-fairy">
+                <img src="./images/intro/fairy.png" class="mt-3" id="map-fairy" width=400>
            
             </div>
          

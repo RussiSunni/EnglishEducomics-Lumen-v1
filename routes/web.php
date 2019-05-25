@@ -75,6 +75,27 @@ $router->get('/intro/home-screen', function () use ($router) {
 });
 
 
+$router->get('/maps/north', function () use ($router) {
+    return view('maps/north');
+});
+
+$router->get('/maps/south', function () use ($router) {
+    return view('maps/south');
+});
+
+$router->get('/maps/west', function () use ($router) {
+    return view('maps/west');
+});
+
+$router->get('/maps/east', function () use ($router) {
+    return view('maps/east');
+});
+
+
+
+
+
+
 
 $router->get('/artemis-and-the-animals/01', function () use ($router) {
     return view('artemis-and-the-animals/01');
