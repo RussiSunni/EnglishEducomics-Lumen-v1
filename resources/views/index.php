@@ -40,12 +40,12 @@
 
 
 
-    <div class="container-fluid text">
+    <div class="container text">
        
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-lg-8">
-                        <a href="/artemis-and-the-animals/01" id="artemis">
-                            Artemis
+                        <a href="/artemis-and-the-animals/01" id="ghana">
+                            Ghana
                         </a>
                         <a href="/learning-about-colour/01" id="iris">
                             Iris

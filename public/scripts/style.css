@@ -480,14 +480,15 @@ a {
 
 /* map overlays*/
 
-#artemis {
+#ghana {
 	z-index: 2;
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 100px;
 	position: absolute;
 	border: 1px solid rgba(50, 50, 50, 0.5);
-	top: 100px;
-	line-height: 300px;
+	top: 150px;
+	left: 200px;
+	line-height: 100px;
 	text-align: center;
 }
 

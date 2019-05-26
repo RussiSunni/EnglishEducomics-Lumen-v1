@@ -50,7 +50,7 @@
             <div>
                 <h1 id="changeText1">Learn English</h1>
                 <h2 id="changeText2" class="mb-3">with comics</h2>
-                <a class="btn btn-outline-dark rounded-button" href="intro/introduction" role="button">begin now</a>
+                <a class="btn" href="intro/introduction" role="button" id="portal"><img src="images/website/door-01.png" width = 100></a>
             </div>
         </header>
     </div>
