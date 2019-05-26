@@ -1,6 +1,11 @@
 $(document).ready(function() {
     $("#portal").click(function() {
-        alert("you step through the doorway");
+        $("#door-closed").addClass("d-none");
+        $("#door-open").removeClass("d-none");
+        setTimeout(function() {
+            window.location.href =
+                "http://local.sunshineenglishschool.com/intro/introduction";
+        }, 500);
     });
 
     // function doThis(str){

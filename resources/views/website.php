@@ -50,7 +50,8 @@
             <div>
                 <h1 id="changeText1">Learn English</h1>
                 <h2 id="changeText2" class="mb-3">with comics</h2>
-                <a class="btn" href="intro/introduction" role="button" id="portal"><img src="images/website/door-01.png" width = 100></a>
+                <a class="btn" role="button" id="portal"><img src="images/website/door-01.png" width=100 id="door-closed"><img src="images/website/source.gif" class="d-none" width=100 id="door-open"></a>
+                <p><em>(gif credit to: Jacqueline Jing Lin https://giphy.com/gifs/open-snapchat-vector-dYQfIcryc28bS6132z/media, to be replaced)</em></p>
             </div>
         </header>
     </div>
