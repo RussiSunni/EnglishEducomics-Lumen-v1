@@ -197,6 +197,11 @@ a {
 
 	/* for the Home view, for choosing familiar*/
 
+#fairy {
+	cursor: pointer;
+}
+
+
 	/* HIDE RADIO */
 [type=radio] { 
 	position: absolute;

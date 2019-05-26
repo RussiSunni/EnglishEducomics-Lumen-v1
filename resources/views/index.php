@@ -62,7 +62,8 @@
                         <img src="../../images/index/africa-map-01.jpg" width=700 height=588 alt="map" usemap="#map" class="panel" id="map">
             </div>
             <div class="col-lg-4 my-auto text-center">
-                <span class="bg-light border border-dark rounded p-1">Where to next, young hero?</span>
+                <div class="bg-light border border-dark rounded p-1">The Academy has various tasks that need to be accomplished.</div>
+                <!-- <span class="bg-light border border-dark rounded p-1">Where to next, young hero?</span> -->
                 <img src="./images/intro/fairy.png" class="mt-3" id="map-fairy" width=400>
            
             </div>

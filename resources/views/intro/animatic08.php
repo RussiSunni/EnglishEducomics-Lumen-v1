@@ -16,21 +16,18 @@
             <div class="col-12 col-md-6 col-lg-6 mt-3 my-auto">
                 <div class="row mb-3">
                     <div class="col">
-                        <h5 class="text-center">Well, junior, it looks like I have been assigned to look after you for now. Hmmph! <a href="/intro/home-screen" class="text-dark">---></a></h5>
+                        <h5 class="text-center text" id="fairy-dialogue-01"><em>Well, junior, it looks like I have been assigned to look after you for now.</em></h5>
+                        <h5 class="text-center text d-none" id="fairy-dialogue-02"><em>First, we will need to get you a familiar</em> <a href="/intro/home-screen" class="text-dark">---></a></h5>
                     </div>
                 </div>
                 <input id="submitFamiliar" value="choose" type="button" class="btn btn-secondary float-right d-none">
                 <a id="homescreen-proceed-btn" class="btn btn-outline-dark ml-auto float-right d-none" href="../index" role="button">proceed</a>
             </div>
             <div class="col-12 col-md-6 col-lg-5 mt-5 my-auto">
-                <img src="../../images/intro/fairy.png" class="rounded img-fluid homescreen-fairyimg">
+                <img src="../../images/intro/fairy.png" class="rounded img-fluid homescreen-fairyimg" id="fairy">
             </div>
         </div>
     </div>
-
-
-   
-    
 
     <div id="footer"></div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -42,6 +39,15 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
     <script src="../../scripts/script.js"></script>
+
+    <script>
+        $("#fairy").click(function() {
+            $("#fairy-dialogue-01").addClass("d-none");
+            $("#fairy-dialogue-02").removeClass("d-none");
+        });
+
+    </script>
+
 </body>
 
 </html>

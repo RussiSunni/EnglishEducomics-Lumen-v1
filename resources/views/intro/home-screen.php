@@ -21,8 +21,7 @@
                 <div class="row mb-3">
                     <div class="col">
                   
-                        <h5 class="text-center"><span id='chooseFamiliar'><span id="currentUser"></span>, before you proceed, you need to choose
-                            your familiar</span></h5>
+                        <h5 class="text-center text"><span id='chooseFamiliar'><span id="currentUser"></span>, choose wisely</span></h5>
                     </div>
                 </div>
 
